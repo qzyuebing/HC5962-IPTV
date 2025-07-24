@@ -39,6 +39,7 @@ config interface 'CHINA_TELECOM'
 	option device 'lan1'
 	option defaultroute '0'
 	option delegate '0'
+	option hostname '*'
 
 config interface 'IPTV_SDYX'
 	option proto 'static'
@@ -54,8 +55,8 @@ config interface 'IPTV_SDYX'
 config device
 	option name 'lan1'
 	option ipv6 '0'
-	option igmpversion '2'
 	option macaddr 'D4:EE:07:45:EA:E5'
+	option igmpversion '2'
 
 config device
 	option name 'lan2'
