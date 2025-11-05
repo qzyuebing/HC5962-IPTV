@@ -3,5 +3,5 @@ config login
 	option minute '0'
 	option hour '5'
 	option enable '1'
-	option week '5'
+	option week '0'
 
