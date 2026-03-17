@@ -9,6 +9,5 @@ config global
 
 config mount
 	option target '/mnt/sda'
-	option uuid 'a87f1146-f42e-4a75-a93b-32595b79c78d'
-	option enabled '0'
-
+	option uuid 'e0311b22-5945-403c-b8f4-7a6992d72e16'
+	option enabled '1'
